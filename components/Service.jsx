@@ -1,3 +1,12 @@
+// Name: Chiayi Lin
+// StudentID: 301448962
+// Date: 09.27.24
+// File name: Service.jsx
+// Section: COMP229 SEC 010
+
+// This is the Service.jsx page for my portfolio of web development work. It include a short list of 
+// services I offer.
+
 import Card from 'react-bootstrap/Card';
 import generalPr from '../src/assets/image/generalPr.jpg'; 
 import webDev from '../src/assets/image/webDev.jpg'; 

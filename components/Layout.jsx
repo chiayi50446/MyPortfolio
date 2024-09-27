@@ -1,3 +1,12 @@
+// Name: Chiayi Lin
+// StudentID: 301448962
+// Date: 09.27.24
+// File name: Layout.jsx
+// Section: COMP229 SEC 010
+
+// This is the Layout.jsx for my portfolio of web development work. It has a Navigation Bar
+// and highlight the selected part.
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState, useEffect  } from 'react'
@@ -7,9 +16,6 @@ import { useLocation } from 'react-router-dom';
 export default function Layout() {
 const [isActive, setActive] = useState("Home");
 
-const toggleClass = (name) => {
-    // setActive(name);
-};
 const location = useLocation();
 useEffect(() => {
   var name = window.location.pathname.substring(1);

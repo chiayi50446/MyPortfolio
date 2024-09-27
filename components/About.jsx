@@ -1,3 +1,11 @@
+// Name: Chiayi Lin
+// StudentID: 301448962
+// Date: 09.27.24
+// File name: About.jsx
+// Section: COMP229 SEC 010
+
+// This is the About.jsx page for my portfolio of web development work. It include a link to a PDF
+// and a short paragraph about me.
 
 import avatar from '../src/assets/image/avatar.jpg'; 
 import Button from 'react-bootstrap/Button';
@@ -5,7 +13,6 @@ import Button from 'react-bootstrap/Button';
 export default function About() {
     return (
       <>
-      {/* // <!-- about section --> */}
       <section className="about_section ">
         <div className="container">
           <div className="row">
@@ -42,7 +49,6 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <!-- end about section --> */}
       </>
     )
   }

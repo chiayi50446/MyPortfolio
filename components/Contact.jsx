@@ -1,3 +1,11 @@
+// Name: Chiayi Lin
+// StudentID: 301448962
+// Date: 09.27.24
+// File name: Contact.jsx
+// Section: COMP229 SEC 010
+
+// This is the Contact.jsx page for my portfolio of web development work. It include my contact information
+// and a short interactive form that allows the user to send a message to me.
 
 import { useState } from 'react'
 import bldg from '../src/assets/image/centennialplace_bldg.jpg';

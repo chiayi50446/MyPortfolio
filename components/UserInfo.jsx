@@ -1,3 +1,11 @@
+// Name: Chiayi Lin
+// StudentID: 301448962
+// Date: 09.27.24
+// File name: UserInfo.jsx
+// Section: COMP229 SEC 010
+
+// This is the UserInfo.jsx popup page for my portfolio of web development work. It shows user's information
+
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 

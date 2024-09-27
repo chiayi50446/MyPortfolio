@@ -1,3 +1,11 @@
+/* 
+Name: Chiayi Lin
+StudentID: 301448962
+Date: 09.27.24
+File name: MainRouter.jsx
+Section: COMP229 SEC 010 
+*/
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
