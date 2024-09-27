@@ -3,6 +3,7 @@
 // Date: 09.27.24
 // File name: Main.jsx
 // Section: COMP229 SEC 010
+// Default main page
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'

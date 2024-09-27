@@ -4,6 +4,7 @@
 // File name: App.jsx
 // Section: COMP229 SEC 010
 
+// Default App page
 
 import { BrowserRouter as Router } from 'react-router-dom';
 import MainRouter from '../MainRouter.jsx'

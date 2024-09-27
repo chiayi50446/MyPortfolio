@@ -172,7 +172,7 @@ a:focus {
 
 /*end header section*/
 
-
+/*start contact section*/
 .contact_section {
   position: relative;
   margin-top: 65px;
@@ -235,12 +235,6 @@ a:focus {
   color: #dc373d;
   background-color: transparent;
 }
-
-.heading_container h2 {
-  position: relative;
-  font-weight: bold;
-}
-
 .background-dark {
   background-color: #282828 !important; 
 }
@@ -251,7 +245,7 @@ a:focus {
   margin-top: 20px !important;
   display: block;
 } 
-.text-size-30, .text-l-size-30 {
+.text-size-30 {
   font-size: 30px !important;
   line-height: 1.4;
 }
@@ -259,14 +253,9 @@ a:focus {
   margin-bottom: 0 !important;
   display: block;
 }
-.text-size-20, .text-l-size-20 {
+.text-size-20 {
   font-size: 20px !important;
   line-height: 1.4;
-}
-.padding-2x p {
-  line-height: 1.6;
-  font-size: 0.85rem;
-  margin: 0;
 }
 .full-width:after {
   clear:both;
@@ -294,6 +283,18 @@ a:focus {
   width: 40%;
   float: right;
 }
+.padding-2x p {
+  line-height: 1.6;
+  font-size: 0.85rem;
+  margin: 0;
+}
+/*end contact section*/
+
+.heading_container h2 {
+  position: relative;
+  font-weight: bold;
+}
+
 .detail_box h2 {
   margin-bottom: 0;
 }
@@ -319,6 +320,8 @@ a:focus {
   background-color: transparent;
   color: #0d0806;
 }
+
+/*start home section*/
 .carousel-item {
   position: relative;
   display: block;
@@ -335,7 +338,9 @@ a:focus {
   clear: both;
   content: "";
 }
+/*end home section*/
 
+/*start about section*/
 .about_section .detail_box p {
   margin: 15px 0;
 }
@@ -344,9 +349,13 @@ a:focus {
   margin-top: 10px;
   font-size: larger;
 }
+/*end about section*/
+
+
 .button-text {
   color:#f9f9f9;
 }
+
 .project-card {
   display: flex;
 }
