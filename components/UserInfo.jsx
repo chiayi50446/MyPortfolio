@@ -8,6 +8,7 @@
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { Link } from 'react-router-dom';
 
 export default function UserInfo(props) {
   return (
@@ -35,7 +36,7 @@ export default function UserInfo(props) {
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>
-          <a href="/" className='button-text'>Close</a>
+          <Link to="/MyPortfolio/" className="button-text">Close</Link>
         </Button>
       </Modal.Footer>
     </Modal>

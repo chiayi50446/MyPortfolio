@@ -4,9 +4,10 @@
 // File name: Home.jsx
 // Section: COMP229 SEC 010
 
+import { Link } from 'react-router-dom';
+
 // This is the Home.jsx page for my portfolio of web development work. It includes welcome message, 
 // Mission Statement and button that allows the user to redirect to About Me Page
-
 export default function Home() {
   return (
     <>
@@ -27,7 +28,7 @@ export default function Home() {
                     "To find happiness and fulfillment in everything I do at work."
                     </p>
                     <div>
-                      <a href="/About">About me</a>
+                      <Link to="/MyPortfolio/About">About me</Link>
                     </div>
                   </div>
                 </div>

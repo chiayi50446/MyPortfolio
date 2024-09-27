@@ -22,11 +22,11 @@ const MainRouter = () => {
    <div className="hero_area">
         <Layout/>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/service" element={<Service />} />
-          <Route exact path="/project" element={<Project />} />
+          <Route exact path="/MyPortfolio/" element={<Home />} />
+          <Route exact path="/MyPortfolio/about" element={<About />} />
+          <Route exact path="/MyPortfolio/contact" element={<Contact />} />
+          <Route exact path="/MyPortfolio/service" element={<Service />} />
+          <Route exact path="/MyPortfolio/project" element={<Project />} />
         </Routes>
       </div>
     </div>
