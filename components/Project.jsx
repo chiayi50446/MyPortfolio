@@ -1,11 +1,22 @@
+// Name: Chiayi Lin
+// StudentID: 301448962
+// Date: 09.27.24
+// File name: Project.jsx
+// Section: COMP229 SEC 010
+
+// This is the Project.jsx page for my portfolio of web development work. It include the three project
+// I am working on, each including image and a short description of your role and the outcome.
+
 import Card from 'react-bootstrap/Card';
-import cfd from '../src/assets/image/cfd.jpg'; 
-import portfolio from '../src/assets/image/portfolio.png'; 
+import systemDesignDiagram from '../src/assets/image/cfd.jpg'; 
+import portfolioHomePage from '../src/assets/image/portfolio.png'; 
+import gameDesignLogo from '../src/assets/image/logo.jpg'; 
+
 export default function Project() {
     return (
     <div className="project-card">
       <Card style={{ width: '18rem', marginLeft: '5px' }}>
-        <Card.Img variant="top" src={cfd} />
+        <Card.Img variant="top" src={systemDesignDiagram} />
         <Card.Body>
           <Card.Title>Inventory Management System Design</Card.Title>
           <Card.Text>
@@ -14,7 +25,7 @@ export default function Project() {
         </Card.Body>
       </Card>
       <Card style={{ width: '18rem', marginLeft: '5px' }}>
-      <Card.Img variant="top" src={portfolio} />
+      <Card.Img variant="top" src={portfolioHomePage} />
       <Card.Body>
         <Card.Title>Web site design - Portfolio</Card.Title>
         <Card.Text>
@@ -23,15 +34,14 @@ export default function Project() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem', marginLeft: '5px' }}>
-    <Card.Img variant="top" src={cfd} />
-    <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
-      </Card.Text>
-    </Card.Body>
-  </Card>
+      <Card.Img variant="top" src={gameDesignLogo} />
+      <Card.Body>
+        <Card.Title>Game design - map touring</Card.Title>
+        <Card.Text>
+          Creating a side-scrolling action-adventure game that combines exploration and puzzle-solving involves developing the gameplay mechanics, narrative, and visual style.
+        </Card.Text>
+      </Card.Body>
+    </Card>
   </div>
   )
   }
